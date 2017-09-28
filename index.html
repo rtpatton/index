@@ -14,6 +14,8 @@ $(document).ready(function(){
       $('.logo').css('opacity', '1');
       $('h1').css('display', 'none');
     });
+	Formio.createForm(document.getElementById('formio'), 'https://examples.form.io/example');
+
 });
 
 </script>
@@ -163,7 +165,9 @@ E-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 
 <br>
 <br>
-
+<link rel="stylesheet" href="https://unpkg.com/formiojs@latest/dist/formio.full.min.css">
+<script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
+<div id="formio"></div>
 
 <!-- <a href="http://www.twitter.com/hol_haus">Twitter: @Hol_haus</a>
   <a href="http://www.facebook.com/holhaus">Facebook.com/holhaus</a>
